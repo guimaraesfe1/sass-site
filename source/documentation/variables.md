@@ -146,9 +146,9 @@ within the block they were declared.
 
   .sidebar {
     global: $global-variable;
+    local: $local-variable;
 
     // This would fail, because $local-variable isn't in scope:
-    // local: $local-variable;
   }
   ===
   $global-variable: global value
